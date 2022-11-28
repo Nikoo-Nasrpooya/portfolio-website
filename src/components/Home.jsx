@@ -4,10 +4,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div
-      name="home"
-      className="h-screen w-full bg-"
-    >
+    <div name="home" className="h-screen w-full bg-">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-5xl font-bold text-white ">
@@ -16,7 +13,7 @@ const Home = () => {
           <p className=" py-4 max-w-md">
             I have 2 years of experience building and designing softwares.
             Currently, I love to work on web applications using techonologies
-            like React, Tailwind, Next JS and GraphQL.
+            like React, Tailwind and Node JS.
           </p>
           <div>
             <Link
