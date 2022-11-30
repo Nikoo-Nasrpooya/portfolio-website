@@ -6,7 +6,11 @@ const Footer = () => {
     <footer>
       <ul className="flex justify-center p-20 border-t-2 ">
         <li className="px-10 py-50 hover:scale-110 duration-200">
-          <a href="https://github.com/Nikoo-Nasrpooya" target="_blank">
+          <a
+            href="https://github.com/Nikoo-Nasrpooya"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub size={30} />
           </a>
         </li>
@@ -14,12 +18,17 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/nikoo-nasrpooya/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FaLinkedin size={30} />
           </a>
         </li>
         <li className="px-10 pb-50 hover:scale-110 duration-200">
-          <a href="https://twitter.com/nikoonasrpooya" target="_blank">
+          <a
+            href="https://twitter.com/nikoonasrpooya"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTwitter size={30} />
           </a>
         </li>
