@@ -1,9 +1,9 @@
 import CSSGrid from "../assets/portfolio/CSSGrid.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import toDoList from "../assets/portfolio/toDoList.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -14,7 +14,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: reactParallax,
+      src: toDoList,
     },
     {
       id: 3,
